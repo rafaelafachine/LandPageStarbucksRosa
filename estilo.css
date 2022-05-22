@@ -11,14 +11,6 @@ body{
     min-height: 100%;
 }
     
-
-
-html {
-    height: 100%;
-}
-
-    
-
 .eclipse-rosa{
     display: block;
     position: fixed;
@@ -26,7 +18,6 @@ html {
     height: 650px;
     left: 662px;
     top: 300px;  
-
 }
 
 .cabecalho{
@@ -38,7 +29,7 @@ html {
 }
 
 .cabecalho-imagem{
-/* logo 1 */
+    /* logo Starbucks */
     width: 100px;
     height: 100px;
     left: 88px;
@@ -57,14 +48,7 @@ html {
     font-family: 'Poppins', sans-serif;
     color: #131712;
     font-weight: 500;
-    font-size: 20px;     
-
-    
-}
-
-.conteudo{
-    margin-bottom: 48px;
-
+    font-size: 20px;    
 }
 
 .conteudo-principal{
@@ -86,109 +70,83 @@ html {
 .conteudo-principal-escrito-titulo{
     /* It’s not just coffe */
 
-position: fixed;
-width: 552px;
-height: 120px;
-left: 80px;
-top: 198px;
-
-/* ui/typo/heading/1 */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 67.34px;
-line-height: 120px;
-/* identical to box height, or 178% */
-text-align: center;
-
-color: #131712;
+    position: fixed;
+    width: 552px;
+    height: 120px;
+    left: 80px;
+    top: 198px;
 
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 67.34px;
+    line-height: 120px;
+    text-align: center;
+    color: #131712;
 }
 
 .conteudo-principal-escrito-subtitulo{
   /* It’s Starbucks */
 
-position: fixed;
-width: 566px;
-height: 120px;
-left: 80px;
-top: 294px;
+        position: fixed;
+        width: 566px;
+        height: 120px;
+        left: 80px;
+        top: 294px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 67.34px;
-line-height: 120px;
-/* identical to box height, or 178% */
-text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 67.34px;
+        line-height: 120px;
+        text-align: center;
 
-color: #131712;
+        color: #131712;
 
 
 }
 
 .conteudo-principal-texto{
 
-/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacinia est cursus mollis ac cursus enim aliquet enim cursus. Commodo a at viverra viverra quis dictum mauris, volutpat. Risus felis velit elit, in fs ut nec ornare nisl, leo scelerisque a. Aliquam, ut turpis eleifend aenean fringilla non. Viverra maecentum dui erat auctor dui velit at eu. Eget tincidunt aliquam nam sagittis ipsum leo. Ipsum aliquam placerat ut sit. Pulvinar id quis blandit elit nulla nullam porttitor phasellus enim. Rutrum at mollis imperdiet matum justo, risus. Aliquam id convallis venenatis, sed magnis eleifend. Quisque purus duis viverra suspendisse cras blandit mi iaculis libero. Purus neque risus, pharetra gravida et sit. Faucibus mi velit, sed varius arcu, faucibus sed. */
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. . */
 
-position: fixed;
-width: 570px;
-height: 265px;
-left: 77px;
-top: 430px;
-
-/* ui/typo/button */
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-
-color: #131712;
-
-
-
-
+        position: fixed;
+        width: 570px;
+        height: 265px;
+        left: 77px;
+        top: 430px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #131712;
 
 }
 
 .conteudo-principal-escrito-botao{
 
-/* Learn More */
-
-/* ui/typo/button/2 */
+        /* Learn More */
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
         font-size: 28.43px;
         line-height: 50px;
-        /* identical to box height, or 176% */
         text-align: center;
-      
+        position: absolute;
+        width: 217px;
+        height: 54px;
+        left: 77px;
+        top: 726px;
 
-/* dark */
-
-
-/* Rectangle 3513 */
-
-    position: absolute;
-    width: 217px;
-    height: 54px;
-    left: 77px;
-    top: 726px;
-
-/* rose_final */
-    background: #D89B9E;
-    border-radius: 25px;
-    border-bottom: #D89B9E;
-
-
+        background: #D89B9E;
+        border-radius: 25px;
 }
 
 .conteudo-principal-imagem{
   
-      /* coffe_rose 2 */
+      /* Café Rosa grande*/
 
     position: fixed;
     width: 450px;
@@ -208,20 +166,17 @@ color: #131712;
 }
 
 .redes-sociais-instagram{
-    /* instagram 1 */
+    /* instagram icone */
 
     position: fixed;
     width: 41px;
     height: 41px;
     right: 32px;
     top: 616px;
-
-
-
 }
-.redes-sociais-twitter{
 
-/* twitter 1 */
+.redes-sociais-twitter{
+    /* twitter icone */
 
     position: fixed;
     width: 41px;
@@ -232,19 +187,16 @@ color: #131712;
 }
 
 .redes-sociais-facebook{
-    /* facebook 1 */
-
+    /* facebook icone */
     position: fixed;
     width: 21px;
     height: 41px;
     right: 42px;
     top: 462px;
-
 }
 
 .verde{
-    /* coffe_green 2 */
-
+    /* coffe_green pequeno */
     position: fixed;
     width: 64px;
     height: 100px;
@@ -253,17 +205,10 @@ color: #131712;
 }
 
 .rosa{
-    /* coffe_rose 1 */
-
+    /* coffe_rose pequeno */
     position: fixed;
     width: 59px;
     height: 91px;
     right: 650px;
     top: 873px;
-
 }
-
-
-
-
-
